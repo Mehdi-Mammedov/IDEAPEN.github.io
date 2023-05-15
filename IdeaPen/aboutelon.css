@@ -1,0 +1,289 @@
+body{
+
+  background: #eeeeee;
+  font-family: 'Exo 2', sans-serif;
+}
+nav{
+  background: #182464;
+  height: 80px;
+  width: 100%;
+}
+label.logo{
+  color: #f1f4f6;
+  font-size: 50px;
+  line-height: 80px;
+  padding: 50px 10px ;
+  font-weight: bold;
+  margin-top:-10px;
+  vertical-align: 0.3em
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color: #f1f4f6;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 7px 13px;
+
+}
+a.us, a:hover{
+  background: #7aa5d2;
+  transition: .5s;
+  color: #48466d;
+  border-radius: 8px;
+  width: 15px;
+
+
+}
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+nav ul li.dropdown:hover ul {
+  display: block;
+}
+
+nav ul li.dropdown {
+  position: relative;
+}
+
+nav ul li.dropdown ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #7aa5d2;
+  min-width: 180px;
+}
+
+nav ul li.dropdown ul li {
+  display: block;
+}
+
+nav ul li.dropdown ul li a {
+  color: #7aa5d2;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+}
+
+nav ul li.dropdown ul li:hover a {
+  background: #47555e;
+  transition: .5s;
+  color: #7aa5d2;
+  border-radius: 8px;
+}
+
+nav ul li.dropdown:hover a {
+  background: #7aa5d2;
+  transition: .5s;
+  color: #47555e;
+  border-radius: 8px;
+}
+
+nav ul li.dropdown:hover ul li:nth-child(1) {
+  margin-top: 10px;
+}
+
+nav ul li.dropdown:hover ul li:nth-child(2) {
+  margin-top: 10px;
+}
+.facts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.fact {
+  width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: transform 0.2s ease-in-out;
+  text-align: center;
+  background: #303841;
+  color: #eeeeee;
+}
+
+.fact:hover {
+  transform: scale(1.1);
+  background: #d8dfe2;
+  color: #303841;
+  }
+
+.fact p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #303841;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+h5{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+.hero p{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  text-decoration: underline;
+}
+.container{
+  display: inline-block;
+  margin-left: 50px;
+}
+.musk {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 560px;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  background: #818d97;;
+  border-top-left-radius: 20px;
+  text-align: left;
+  float: left;
+}
+
+.musk p {
+  flex: 1;
+  font-size: 14px;
+  color: #d8dfe2;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.musk img {
+  flex: 1;
+  margin-left: 20px;
+  width: 300px;
+}
+.musk2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  background: #818d97;
+  border-top-right-radius: 20px;
+  text-align: right;
+  float: right;
+}
+
+.musk2 p {
+  flex: 1;
+  font-size: 14px;
+  color: #d8dfe2;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.musk2 img {
+  flex: 1;
+  margin-right: 20px;
+  width: 300px;
+  text-align: right;
+}
+.container2{
+  display: inline-block;
+  margin-left: 50px;
+  }
+.musk12 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-bottom: 40px;
+  background: #818d97;
+  border-bottom-right-radius: 20px;
+  text-align: right;
+  float: right;
+}
+
+.musk12 p {
+  flex: 1;
+  font-size: 14px;
+  color: #d8dfe2;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.musk12 img {
+  flex: 1;
+  margin-right: 20px;
+  width: 300px;
+  text-align: right;
+}
+.musk22 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 560px;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+  background: #818d97;
+  border-bottom-left-radius: 20px;
+  text-align: left;
+  float: left;
+}
+
+.musk22 p {
+  flex: 1;
+  font-size: 14px;
+  color: #d8dfe2;
+  margin-left: 10px;
+}
+
+.musk22 img {
+  flex: 1;
+  margin-left: 20px;
+  width: 300px;
+}
+h3{
+  text-align: center;
+  background: #303841;
+  color: #eeeeee;
+}
+.site{
+  display: inline-block;
+}
+.site img{
+  border-radius: 10px;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 240px;
+  margin-right: 20px;
+}
+
+
+
+
+
+
+
+
